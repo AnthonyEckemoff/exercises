@@ -1,0 +1,24 @@
+﻿.block.blue {
+    background: blue;
+}
+
+.block.red {
+    background: red;
+}
+
+.board {
+    height: 700px;
+    width: 700px;
+    position: relative;
+    background: url("board.png") 0 0 no-repeat;
+}
+.gameDiv {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.block {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
